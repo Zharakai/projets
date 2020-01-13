@@ -8,3 +8,9 @@ section
 {
     display: flex;
 }
+
+aside
+{
+	background-color: #feca06;
+	max-width: 32%;
+}
