@@ -17,6 +17,18 @@
     margin: auto;
 }
 
+.information
+{
+	background-color: #404040;
+    color: #feca06;
+    text-align: center;
+}
+
+.loisirs
+{
+    text-align: center;
+}
+
 section
 {
     display: flex;
@@ -25,7 +37,7 @@ section
 aside
 {
 	background-color: #feca06;
-	max-width: 32%;
+    max-width: 32%;
 }
 
 h1
@@ -43,8 +55,31 @@ h1, h3
 	text-transform: uppercase;
 }
 
+h3
+{
+	font-family: calibri, sans-serif;
+}
+
+p
+{
+	font-family: calibri, sans-serif;
+	color: #4a4a4a;
+}
+
+table
+{
+	font-family: calibri, sans-serif;
+}
+
 mark
 {	
 	color: #feca06;
 	background-color: white;
 }
+
+hr 
+{
+    border: none;
+    border-bottom: 2px solid #feca06;
+}
+
