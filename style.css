@@ -11,75 +11,73 @@
 
 }
 
-#bloc_page
-{
+#bloc_page {
     max-width: 1190px;
     margin: auto;
 }
 
-.information
-{
+.information {
 	background-color: #404040;
     color: #feca06;
     text-align: center;
 }
 
-.loisirs
-{
+.loisirs {
     text-align: center;
 }
 
-section
-{
+section {
     display: flex;
 }
 
-aside
-{
+aside {
 	background-color: #feca06;
     max-width: 32%;
 }
 
-h1
-{
+h1 {
     font-size: 2em;
 }
 
-h1, h2
-{
+h1, h2 {
 	font-family: 'aaarghnormal', calibri, sans-serif;
 }
 
-h1, h3
-{
+h1, h3 {
 	text-transform: uppercase;
 }
 
-h3
-{
+h3 {
 	font-family: calibri, sans-serif;
 }
 
-p
-{
+p {
 	font-family: calibri, sans-serif;
 	color: #4a4a4a;
 }
 
-table
-{
+table {
 	font-family: calibri, sans-serif;
 }
 
-mark
-{	
+mark {	
 	color: #feca06;
 	background-color: white;
 }
 
-hr 
-{
+hr {
     border: none;
     border-bottom: 2px solid #feca06;
 }
 
+#grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grille {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+}
