@@ -3,3 +3,8 @@
     max-width: 1190px;
     margin: auto;
 }
+
+section
+{
+    display: flex;
+}
