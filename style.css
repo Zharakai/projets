@@ -1,4 +1,17 @@
-﻿#bloc_page
+﻿@font-face {
+    font-family: 'aaarghnormal';
+    src: url('fonts/Aaargh-webfont.eot');
+    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aaargh-webfont.woff2') format('woff2'),
+         url('fonts/Aaargh-webfont.woff') format('woff'),
+         url('fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#bloc_page
 {
     max-width: 1190px;
     margin: auto;
@@ -13,4 +26,25 @@ aside
 {
 	background-color: #feca06;
 	max-width: 32%;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h1, h2
+{
+	font-family: 'aaarghnormal', calibri, sans-serif;
+}
+
+h1, h3
+{
+	text-transform: uppercase;
+}
+
+mark
+{	
+	color: #feca06;
+	background-color: white;
 }
