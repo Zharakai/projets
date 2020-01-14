@@ -22,12 +22,25 @@
     text-align: center;
 }
 
-.loisirs {
+#loisirs {
+    text-align: center;
+    font-size: 2em;
+}
+
+#portrait {
     text-align: center;
 }
 
-.portrait {
-    text-align: center;
+#contact {
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+#a_propos {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+    text-align: justify;
 }
 
 section {
@@ -37,6 +50,8 @@ section {
 aside {
 	background-color: #feca06;
     max-width: 32%;
+    margin-top: -1%;
+    margin-bottom: -1%;
 }
 
 h1 {
